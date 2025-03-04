@@ -1,0 +1,70 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff99cc, #9966ff, #99ccff);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Caixa principal */
+.container {
+    background: white;
+    color: black;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Seção de inputs */
+.input-section input, 
+.input-section select, 
+.input-section button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Botões */
+.input-section button {
+    background: #ff66b2;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-section button:hover {
+    background: #e60073;
+}
+
+/* Lista de compras */
+#lista {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#lista p {
+    background: #ffccff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Botão geral */
+button {
+    padding: 10px;
+    background: #663399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4d2673;
+}
